@@ -1,0 +1,8 @@
+<template>
+    <div class="droparea" ondragover={cancel} ondragenter={cancel} ondrop={handleDragComplete}>
+      <div key={item.id} class="row" for:each={items} for:item="item" for:index="index" draggable="true"
+        ondragstart={handleDragStart} data-id={item.id}>
+        {item.value}
+      </div>
+    </div>
+  </template>
