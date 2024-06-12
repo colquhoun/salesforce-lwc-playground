@@ -1,4 +1,4 @@
-import { LightningElement, track } from "lwc";
+import { LightningElement } from "lwc";
 /* This is only a demo, not polished production code. It is trimmed to
   the bare minimum for educational purposes.
 

@@ -1,14 +1,19 @@
 <template>
-	<lightning-layout>
-		<lightning-layout-item size="6">
-			<c-drag-list-container name="available" items={availableItems} onstartmove={handleDragStart}
+    <h1>Drag & Drop</h1>
+	<div>
+		<div>
+			<x-drag-list-container name="available" 
+				items={availableItems} 
+				onstartmove={handleDragStart}
 				onendmove={handleDragComplete}>
-			</c-drag-list-container>
-		</lightning-layout-item>
-		<lightning-layout-item size="6">
-			<c-drag-list-container name="selected" items={selectedItems} onstartmove={handleDragStart}
+			</x-drag-list-container>
+		</div>
+		<div>
+			<x-drag-list-container name="selected" 
+				items={selectedItems} 
+				onstartmove={handleDragStart}
 				onendmove={handleDragComplete}>
-			</c-drag-list-container>
-		</lightning-layout-item>
-	</lightning-layout>
+			</x-drag-list-container>
+		</div>
+	</div>
 </template>
