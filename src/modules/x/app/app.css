@@ -1,0 +1,16 @@
+h1 {
+    text-decoration: underline;
+}
+
+.droparea{
+    border: 1px solid black;
+    position: relative;
+    margin: 3px;
+    min-height: 4em;
+}
+.droparea .row {
+    position: relative;
+    border: 1px solid red;
+    padding: 3px;
+    margin: 3px;
+}
